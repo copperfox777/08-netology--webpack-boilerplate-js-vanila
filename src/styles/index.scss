@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'scaffolding';
+
+
+.container {
+  padding:20px 0;
+  border:3px solid #000;
+  margin:20px;
+  box-sizing: border-box;
+  min-height: 517px;
+  min-width: 250px;
+}
+.loader{
+  position: relative;
+  top: 180px;
+  left: 90px;
+}
+.blue {
+  color:#0a7afb;
+}
+.block {
+  margin:0 20px;
+  padding:10px 0;
+  border-bottom: 1px solid grey;
+}
+.name {
+  font-weight: bold;
+}
+.amount {
+  font-size:0.8rem;
+  color:grey;
+}
+.circle {
+  float:right;
+  margin-top:3px;
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color:#f3f4f7;
+}
